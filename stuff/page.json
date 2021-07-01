@@ -1,9 +1,11 @@
 {
   "color": "#8bcb79",
-  "text": "Hello Internet",
-  "image": "http://www.roblox.com/asset/?id=6916074",
+  "text": "Hello Internet this is a webpage",
+  "image": "rbxassetid://6916073",
   "imagex": 0.688,
   "imagey": 0.285,
-  "link": "https://webuserwithaverybignumberinhisusername.github.io/flemweb/stuff/otherpage.json",
+  "imagexs": 0,
+  "imageys": 0,
+  "link": "otherpage.json",
   "hasimage": true
 }
