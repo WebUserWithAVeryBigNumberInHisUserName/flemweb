@@ -1,7 +1,4 @@
-@font-face {
-  font-family: tf2build;
-  src: url(fonts\TF2BUILD.ttf);
-}
+
 @font-face {
   font-family: tf2;
   src: url(fonts\TF2.ttf);
@@ -18,7 +15,7 @@ body {
   background-color: powderblue;
 }
 h1 {
-    font-family: tf2build;
+    font-family: tf2;
 }
 p {
     font-family: tf2;
