@@ -1,11 +1,27 @@
+@font-face {
+  font-family: tf2build;
+  src: url(fonts\TF2BUILD.ttf);
+}
+@font-face {
+  font-family: tf2;
+  src: url(fonts\TF2.ttf);
+}
+
+
+
+
+ 
+
+
+
 body {
   background-color: powderblue;
 }
 h1 {
-  color: blue;
+    font-family: tf2build;
 }
 p {
-  color: red;
+    font-family: tf2;
 }
 table, th, td {
   border: 1px solid black;
