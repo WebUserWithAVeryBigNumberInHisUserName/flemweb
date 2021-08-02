@@ -1,8 +1,15 @@
 
 @font-face {
   font-family: tf2;
-  src: url('/Fonts/TF2.ttf?')
+  src: url(TF2.ttf);
 }
+
+
+@font-face {
+  font-family: tf2build;
+  src: url(TF2Build.ttf);
+}
+
 
 
 
@@ -12,14 +19,60 @@
 
 
 body {
-  background-color: powderblue;
+
+  background-color: #7cbde7;
+
+
 }
 h1 {
-    font-family: tf2;
+
+color: #FFFFFB;
+    font-family: tf2build;
+font-size: 70px;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: #C55025;
 }
 p {
+
+color: #FFFFFB;
     font-family: tf2;
+font-size: 20px;
+
 }
-table, th, td {
-  border: 1px solid black;
+
+table, td, th {  
+  background-color: #d9d9d9;
+  border: 2px solid #ddd;
+  text-align: center ;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.center {
+background-image: url("images/texture.png");
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.bg {
+  background-image: url("images/sky.png");
+
+  height: 100%; 
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
