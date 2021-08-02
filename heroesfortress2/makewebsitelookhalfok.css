@@ -57,7 +57,7 @@ th, td {
   border-bottom: 1px solid #ddd;
 }
 .center {
-background-image: url("images/texture.png");
+background-image: url("images\texture.png");
   margin: auto;
   width: 60%;
   padding: 10px;
@@ -68,7 +68,7 @@ img {
 }
 
 .bg {
-  background-image: url("images/sky.png");
+  background-image: url("images\sky.png");
 
   height: 100%; 
 
