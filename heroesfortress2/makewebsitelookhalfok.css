@@ -32,6 +32,16 @@ font-size: 70px;
   -webkit-text-stroke-width: 4px;
   -webkit-text-stroke-color: #C55025;
 }
+
+h2 {
+
+color: #ff0000;
+    font-family: tf2;
+font-size: 25px;
+
+}
+
+
 p {
 
 color: #FFFFFB;
