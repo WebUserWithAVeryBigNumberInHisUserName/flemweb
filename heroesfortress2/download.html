@@ -17,16 +17,8 @@
 <p>unofficial download page</p>
  <img src="images/screenshot.png" alt="sCreenshot"> 
  
-$('.button').click(function() {
-  $.ajax({
-    type: "POST",
-    url: "rate.php",
-    data: { name: "Liked" }
-  }).done(function( msg ) {
-    alert( "Data Saved: " + msg );
-  });
-});
- 
+
+
 <p><span>Choose your class and join the legendary match between red team and blue team.<br />Each class has its own set of stats and skills.<br />Fun match lasts 3-5 minutes on mobile.<br />The outfit and dance are extremely impressive.<br /></span></p>
 
 <table>
@@ -45,6 +37,10 @@ $('.button').click(function() {
   
    
 </table>
+ <form action="rate.php" method="post">
+Name: <input type="text" name="What do you think about the game?">
+<input type="submit">
+</form>
 </div>
 </div>
 </body>
