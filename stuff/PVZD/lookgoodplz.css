@@ -15,7 +15,7 @@
 body {
 
   background-color: #7cbde7;
-background-image: url('images/content.jpg');
+
 
 
 }
@@ -64,4 +64,8 @@ th, td {
 img {
   max-width: 100%;
   height: auto;
+}
+.bg {
+  background-image: url('images/content.jpg');
+
 }
