@@ -24,14 +24,6 @@ body {
 
 
 }
-h1 {
-
-color: #FFFFFB;
-    font-family: tf2build;
-font-size: 70px;
-  -webkit-text-stroke-width: 4px;
-  -webkit-text-stroke-color: #C55025;
-}
 
 h2 {
 
@@ -78,10 +70,36 @@ background-image: url(images/texture.png);
   margin: auto;
   width: 100%;
   padding: 0px;
-} }
- @media screen and (orientation:landscape) { .center {
+}
+
+h1 {
+
+color: #FFFFFB;
+    font-family: tf2build;
+font-size: 45px;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: #C55025;
+}
+
+
+
+
+}
+ @media screen and (orientation:landscape) {
+   .center {
 background-image: url(images/texture.png);
   margin: auto;
   width: 60%;
   padding: 10px;
-} }
+}
+h1 {
+
+color: #FFFFFB;
+    font-family: tf2build;
+font-size: 70px;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: #C55025;
+}
+
+
+}
