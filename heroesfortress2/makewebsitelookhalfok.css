@@ -76,7 +76,8 @@ h1 {
 
 color: #FFFFFB;
     font-family: tf2build;
-font-size: 45px;
+font-size: 55px;
+    margin: auto;
   -webkit-text-stroke-width: 4px;
   -webkit-text-stroke-color: #C55025;
 }
